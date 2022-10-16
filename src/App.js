@@ -1,5 +1,8 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { NavBar } from "./components";
+
+import "./App.css";
+
 import { HOME_SCREEN, STARED_REPOS_SCREEN } from "./constants/navigations";
 import { HomeScreen, StaredReposScreen } from "./screens";
 

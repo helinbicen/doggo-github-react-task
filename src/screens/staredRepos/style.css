@@ -1,1 +1,38 @@
- 
+.starred-repos-page {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   /* background-color: red; */
+   gap: 2rem;
+   width: 100%;
+}
+
+.starred-repo-container {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   margin: 1rem;
+   width: 100%;
+   background-color: #17142f;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: 1s;
+}
+
+.starred-repo-container:hover {
+   transform: scale(1.2);
+}
+
+.starred-repo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+ }
+
+ .starred-repo:hover {
+   color: #aa5a8c;
+ }
